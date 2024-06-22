@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2023-12-08T03:32:30.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8Rg9DM1Bo8DzSxXar-6h" version="22.1.7" type="device">
+  <diagram name="Page-1" id="hoIbJ4RCDuNuQscRBj5k">
+    <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-OWKaqELCY9yGpeHC192-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-OWKaqELCY9yGpeHC192-1" target="-OWKaqELCY9yGpeHC192-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="190" />
+              <mxPoint x="210" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-2" value="Customer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-3" value="Enter/Exit Carpark" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-4" value="Make Payment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-5" value="Take / Scan Ticket" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-OWKaqELCY9yGpeHC192-1" target="-OWKaqELCY9yGpeHC192-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="100" />
+              <mxPoint x="300" y="100" />
+              <mxPoint x="300" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-OWKaqELCY9yGpeHC192-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="190" as="sourcePoint" />
+            <mxPoint x="296.6400000000001" y="349.36" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="191" />
+              <mxPoint x="210" y="191" />
+              <mxPoint x="210" y="349" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-OWKaqELCY9yGpeHC192-9" target="-OWKaqELCY9yGpeHC192-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-10" value="System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-11" value="Show Dashboard&lt;br&gt;(Display Parking Space Availability)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-12" value="Assign / Remove a Parking Spot to a Vehicle" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-OWKaqELCY9yGpeHC192-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-OWKaqELCY9yGpeHC192-9" target="-OWKaqELCY9yGpeHC192-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
